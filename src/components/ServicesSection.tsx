@@ -4,27 +4,23 @@ import { Card, CardContent } from '@/components/ui/card';
 const services = [
   {
     icon: Eye,
-    title: "Examen de Vue Complet",
-    description: "Diagnostic précis avec les dernières technologies d'imagerie rétinienne et d'analyse cornéenne.",
-    features: ["OCT haute résolution", "Topographie cornéenne", "Fond d'œil numérique"]
+    title: "Examen de Vue",
+    description: "Diagnostic précis et complet."
   },
   {
     icon: Shield,
-    title: "Tiers Payant Santé",
-    description: "Prise en charge directe avec votre mutuelle. Simplicité et transparence garanties.",
-    features: ["Toutes mutuelles", "Devis transparent", "Remboursement optimisé"]
+    title: "Tiers Payant",
+    description: "Prise en charge directe avec votre mutuelle."
   },
   {
     icon: Sparkles,
-    title: "Ajustement Sur Mesure",
-    description: "Chaque monture est ajustée parfaitement à votre morphologie par nos maîtres opticiens.",
-    features: ["Ajustement précis", "Centrage optimal", "Confort maximal"]
+    title: "Ajustement",
+    description: "Montures ajustées parfaitement à votre morphologie."
   },
   {
     icon: Heart,
     title: "Service Privilège",
-    description: "Un accompagnement personnalisé pour une expérience d'exception du conseil à l'entretien.",
-    features: ["Conseil personnalisé", "Livraison possible", "Entretien inclus"]
+    description: "Accompagnement personnalisé et conseil expert."
   }
 ];
 
@@ -68,15 +64,6 @@ const ServicesSection = () => {
                     <p className="text-muted-foreground leading-relaxed">
                       {service.description}
                     </p>
-                    
-                    <ul className="space-y-2">
-                      {service.features.map((feature) => (
-                        <li key={feature} className="flex items-center space-x-3">
-                          <div className="w-1.5 h-1.5 rounded-full bg-primary" />
-                          <span className="text-sm text-muted-foreground">{feature}</span>
-                        </li>
-                      ))}
-                    </ul>
                   </div>
                 </div>
               </CardContent>

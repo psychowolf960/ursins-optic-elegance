@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, Instagram, Facebook } from 'lucide-react';
+import { MapPin, Phone, Mail } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -17,14 +17,6 @@ const Footer = () => {
               Votre spécialiste des montures de luxe 
               au cœur de Paris.
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="w-10 h-10 bg-primary/20 rounded-full flex items-center justify-center hover:bg-primary transition-colors duration-300">
-                <Instagram className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 bg-primary/20 rounded-full flex items-center justify-center hover:bg-primary transition-colors duration-300">
-                <Facebook className="w-5 h-5" />
-              </a>
-            </div>
           </div>
 
           {/* Navigation */}

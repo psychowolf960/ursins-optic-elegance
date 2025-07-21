@@ -45,15 +45,6 @@ const ContactSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           {/* Contact Information */}
           <div className="space-y-8 slide-up">
-            {/* Boutique Image */}
-            <div className="relative overflow-hidden rounded-none shadow-elegant">
-              <img
-                src={interiorImage}
-                alt="Intérieur de la boutique Optique des Ursins"
-                className="w-full h-64 object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-charcoal/30 to-transparent" />
-            </div>
 
             {/* Contact Cards */}
             <div className="space-y-6">
